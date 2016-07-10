@@ -129,10 +129,12 @@
 .hi img:hover{
 	opacity: 1;
 }
-
 .sectionTitle{
 	text-align: center;
 	margin-bottom: 80px;
+}.sectionTitle2{
+	text-align: center;
+	margin-bottom: 50px;
 }
 .sectionTitle h1{
 	font-family: "Poppins", sans-serif;
@@ -150,7 +152,22 @@
 	text-transform: uppercase;
 	color:#777;
 }
-
+.sectionTitle2 h1{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	color:#000;
+	letter-spacing: 1px;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.sectionTitle2 span{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color:#777;
+}
 .go a {
 	color: #fff;
 	font-size: 18px;
@@ -237,12 +254,23 @@
 	font-size: 50px;
 	margin-top: 3px;
 }
-
 .about-prof-img {
 	height: 77%;
 	width: 77%;
 }
-
+.about-skills-img {
+	height: 30%;
+	width: 30%;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
 
 /*--------------------------------------------------
 	 section Portfolio
@@ -382,15 +410,7 @@
 	letter-spacing: 1px;
 	color:#555;
 }
-.contactForm {margin: 0 0 50px 0;}
-.contactForm h1 {
-  	letter-spacing: 5px;
-  	font-size: 15px;
-  	font-weight: 700;
-  	text-transform: uppercase;
-  	text-align: center;
-  	padding-bottom: 30px;
-}
+
 
 
 
@@ -430,23 +450,26 @@
 	text-transform: none;
 	color:#111;
 }
-.fIcons {
+.fRight {
 	text-align: right;
-	font-size: 20px;
+	font-size: 14px;
 	padding: 25px 0px;
-	padding-right: 30px;
+	padding-right: 30px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
-.fIcons span {
+.fRight span {
 	margin: 0 3px;
+	font-weight: 300;
 	color:#111;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 }
-.fIcons span:hover{
-	color:#ffd504;
+.fRight span:hover{
+	color:#F65151;
 }
-.fIcons a:hover, .fIcons a:focus{
+.fRight a:hover, .fRight a:focus{
 	text-decoration: none;
 }
 
@@ -479,7 +502,6 @@ body{
 
 #headerBar {
 	width: 100%;
-	padding: 0 30px;
 }
 
 .header-right i{
@@ -536,7 +558,7 @@ body{
 .fCopy{
 	text-align: center;
 }
-.fIcons{
+.fRight{
 	text-align: center;
 	padding: 25px 15px;
 }
@@ -546,6 +568,10 @@ body{
 	padding-bottom: 44px;
 }
 .about-prof-img {
+	height: 30%;
+	width: 30%;
+}
+.about-skills-img {
 	height: 30%;
 	width: 30%;
 }
@@ -597,6 +623,10 @@ body{
 }
 .sectionTitle h1{
 	font-size: 30px;
+}
+.sectionTitle2{
+	text-align: center;
+	margin-bottom: 25px;
 }
 .skills{
 	padding-left: 0px;
@@ -682,7 +712,7 @@ body{
 .fCopy{
 	text-align: center;
 }
-.fIcons{
+.fRight{
 	text-align: center;
 	padding: 25px 15px;
 }
@@ -695,7 +725,10 @@ body{
 	height: 60%;
 	width: 60%;
 }
-
+.about-skills-img {
+	height: 45%;
+	width: 45%;
+}
 }
 
 @media (max-width: 300px){
@@ -714,6 +747,10 @@ body{
 .about-prof-img {
 	height: 50%;
 	width: 50%;
+}
+.about-skills-img {
+	height: 30%;
+	width: 30%;
 }
 }
 
