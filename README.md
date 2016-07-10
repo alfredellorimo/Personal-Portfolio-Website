@@ -1,13 +1,11 @@
-# Personal Website
-
-Hello!
-
-This is my personal/portfolio website I made using the following framework/tools/libraries below.
+#Personal-Portfolio-Website
+Created using HTML, CSS, Bootstrap, JavaScript, and other libraries.
 
 Credits:
 
     Bootstrap 3
     jQuery JavaScript Library
+    Animate CSS
     Font Awesome Icons
     Google Fonts
     Isotope
