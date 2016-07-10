@@ -12,3 +12,4 @@ Credits:
     Linea Icons
     Animate CSS
     Wow Animations
+    Flaticon
